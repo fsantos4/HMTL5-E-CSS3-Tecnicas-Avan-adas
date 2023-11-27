@@ -267,3 +267,35 @@
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 40px;
 }
+
+/*media query*/
+.mediaquery {
+	height: 200px;
+	width: 200px;
+	background-color: #d80b0b;
+
+}
+
+@media (max-width: 1000px) {
+	.mediaquery {
+		background-color: #139bda;
+		color: #ffffff;
+		width: 500px;
+	}
+}
+
+@media (max-width: 768px) {
+	.mediaquery {
+		background-color: #0b6691;
+		color: #ffffff;
+		width: 300px;
+	}
+}
+
+@media (max-width: 512px) {
+	.mediaquery {
+		background-color: #083d55;
+		color: #ffffff;
+		width: 200px;
+	}
+}
